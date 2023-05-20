@@ -18,7 +18,7 @@ class Movie(models.Model):
     production_companies = ArrayField(models.JSONField())
     runtime = models.IntegerField()
     release_date = models.DateField()
-    tagline = models.CharField(max_length=255)
+    tagline = models.CharField(max_length=255, blank=True)
     title = models.CharField(max_length=255)
     video = models.BooleanField(default=False)
     vote_average = models.FloatField()
