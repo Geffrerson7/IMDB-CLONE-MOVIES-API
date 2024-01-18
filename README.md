@@ -52,6 +52,30 @@ Y navegar a
 http://127.0.0.1:8000/
 ```
 
+## Instalación en Docker del proyecto
+
+Clonar el repositorio
+
+```bash
+$ git clone https://github.com/Geffrerson7/IMDB-CLONE-MOVIES-API.git
+```
+
+Ir al directorio al proyecto
+
+```bash
+$ cd IMDB-CLONE-MOVIES-API
+```
+
+Ejecutar el comando
+```sh
+$ docker-compose up
+```
+
+Y navegar a
+```sh
+http://127.0.0.1:8000/
+```
+
 ## Tecnologías y lenguajes utilizados
 
 * **Python** (v. 3.11.2) [Source](https://www.python.org/)
